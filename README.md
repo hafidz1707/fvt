@@ -12,3 +12,6 @@ code written using matlab :
 - Forward Modelling using Finite-Difference Travel Time developed by Vidale(1988)
 - Fresnel Volume reconstruction technique developed by Watanabe(1999)
 - Ray reconstruction technique using Steepest Descent developed by Oldenburg(1993)
+
+This program is not perfect and i am aware.
+Codes may contain some useless syntax, variables, and inefficient algorithm, but i leave as it is.
