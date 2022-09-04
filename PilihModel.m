@@ -1,6 +1,6 @@
-function Smodel = PilihModel(N,Smodel,opsi,b)
+function Smodel = PilihModel(N,Smodel,opsi, b)
 %{
-Opsi Model Awal
+First Model Option
 1 = Model Lapisan Horizontal
 2 = Model Lapisan Tipis Horizontal
 3 = Model Mineral

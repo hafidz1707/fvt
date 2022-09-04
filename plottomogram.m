@@ -7,7 +7,7 @@ figure('Name', title, 'color', 'white','NumberTitle','off')
 axis off;
 h = pcolor(Xplot, Yplot, Vplot); hold on;
 if opsi_warna == 1
-    warna = flipud(hsv);
+    %warna = flipud(hsv);
     scalebar = 'm/s';
     plot(source, receiver,'*r'); hold on;
 elseif opsi_warna == 2
@@ -21,8 +21,8 @@ elseif opsi_warna == 3
    plot(source, receiver,'*r'); hold on;
    caxis([-45.45 45.45])
 end
-colormap(warna);
-caxis([0 1]);
+colormap(jet);
+caxis([0 3000]);
 ylabel(colorbar, scalebar)
 if opsi_warna == 1 || opsi_warna == 2
     xlabel('x (m)'); ylabel('y (m)');
